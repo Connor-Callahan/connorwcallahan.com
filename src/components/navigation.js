@@ -4,48 +4,32 @@ import PropTypes from "prop-types"
 import mac from '../images/icon-mac.png'
 
 
-
-
 class Navigation extends Component {
 
   render() {
-    return (
-      <header
-        className="nav-container"
-        style={{
-          background: `white`,
-          marginBottom: `1.45rem`,
-        }}
-      >
-      <Link
-        to="/" className="nav-link">
-        <img src={mac}
-          className="favicon"
-          />
-          <span
-          className="text"
-          >
-          Connor Callahan
-          </span>
-      </Link>
-      <div className="link-list">
-      <Link
-        to="/about/" className="nav-link">
-        About</Link>
-      <Link
-        to="/articles/" className="nav-link">
-        Articles</Link>
 
+    const { navLinks } = this.props.navLinks
+
+    return (
+      <nav >
+        <div className="icon">
+        <Link to="/">
+            <img src={mac} className="favicon" /> <span className="text">Connor Callahan</span>
+          </Link>
         </div>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `1.45rem 1.0875rem`,
-          }}
-        >
-        </div>
-      </header>
+        <div className="nav-links">
+            {navLinks.map(link => (
+              <Link key={link.name} to={link.link} activeClassName="active">
+                {link.name}
+              </Link>
+            ))}
+            <a target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/Connor-Callahan">
+              GitHub
+            </a>
+          </div>
+      </nav>
     );
   }
 

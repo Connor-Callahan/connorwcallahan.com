@@ -8,10 +8,11 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-
 import Navigation from "./navigation"
+import config from  "../data/config"
 import "./layout.css"
-import "../style/navigation.css"
+import "../style/navigation.scss"
+
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -26,7 +27,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Navigation siteTitle={data.site.siteMetadata.title} />
+        <Navigation navLinks={config}/>
         <div
           style={{
             margin: `0 auto`,
