@@ -11,23 +11,25 @@ class Navigation extends Component {
     const { navLinks } = this.props.navLinks
 
     return (
-      <nav >
-        <div className="icon">
-        <Link to="/">
-            <img src={mac} className="favicon" /> <span className="text">Connor Callahan</span>
-          </Link>
-        </div>
-        <div className="nav-links">
-            {navLinks.map(link => (
-              <Link key={link.name} to={link.link} activeClassName="active">
-                {link.name}
-              </Link>
-            ))}
-            <a target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/Connor-Callahan">
-              GitHub
-            </a>
+      <nav>
+        <div className="nav-container">
+          <div className="icon">
+          <Link to="/">
+              <img src={mac} className="favicon" /> <span className="text">Connor Callahan</span>
+            </Link>
+          </div>
+          <div className="nav-links">
+              {navLinks.map(link => (
+                <Link key={link.name} to={link.link} className="link" activeClassName="active">
+                  {link.name}
+                </Link>
+              ))}
+              <a target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/Connor-Callahan">
+                GitHub
+              </a>
+            </div>
           </div>
       </nav>
     );

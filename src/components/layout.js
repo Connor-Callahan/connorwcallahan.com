@@ -10,7 +10,6 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Navigation from "./navigation"
 import config from  "../data/config"
-import "./layout.css"
 import "../style/navigation.scss"
 
 
