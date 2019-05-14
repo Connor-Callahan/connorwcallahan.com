@@ -1,3 +1,4 @@
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -41,7 +42,7 @@ template {
 }
 a {
   background-color: transparent;
-  -webkit-text-decoration-skip: objects;
+  /* -webkit-text-decoration-skip: objects; */
 }
 a:active,
 a:hover {

@@ -1,0 +1,28 @@
+
+
+.nav-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 75px auto;
+  padding-left: 10em;
+  padding-right: 10em;
+  border: 5px solid blue;
+}
+
+.favicon {
+  width: 32px;
+  margin-bottom: 0;
+  margin-right: 15px;
+  border: 1px solid black;
+}
+
+.link-list {
+  border: 1px solid black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-family: helvetica;
+  padding: 5px;
+}

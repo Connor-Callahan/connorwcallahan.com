@@ -15,6 +15,16 @@
         "path": "/404/"
     },
     {
+        "componentChunkName": "component---src-pages-about-js",
+        "jsonName": "about-f34",
+        "path": "/about/"
+    },
+    {
+        "componentChunkName": "component---src-pages-articles-js",
+        "jsonName": "articles-18f",
+        "path": "/articles/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
@@ -23,10 +33,5 @@
         "componentChunkName": "component---cache-dev-404-page-js",
         "jsonName": "dev-404-page-5f9",
         "path": "/dev-404-page/"
-    },
-    {
-        "componentChunkName": "component---src-pages-page-2-js",
-        "jsonName": "page-2-fbc",
-        "path": "/page-2/"
     }
 ]

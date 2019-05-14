@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Connor Callahan`,
-    description: `I am a Full Stack Web Developer experienced in HTML/CSS, Rails, Javascipt and React/Redux.`,
+    description: `Connor Callahan is a Full Stack Web Developer experienced in HTML/CSS, Rails, Javascipt and React/Redux.`,
     author: `Connor Callahan`,
   },
   plugins: [
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon-mac.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
