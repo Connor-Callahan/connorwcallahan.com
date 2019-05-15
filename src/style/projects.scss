@@ -1,0 +1,41 @@
+
+div {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+  font-family: 'IBM Plex Mono', monospace;
+
+  .project-container {
+    padding: 2em 0 0 0.5em;
+    height: 100px;
+    max-width: 800px;
+    margin: auto;
+    justify-content: space-between;
+    transition: height 0.3s ease;
+
+    .project {
+      display: flex;
+      align-items: center;
+
+      h2 {
+        font-size: 1.2em;
+        float: left;
+        border: 2px solid red;
+        margin-right: 1em;
+        padding-right: 0.2em;
+        width: 100%;
+      }
+      p {
+        font-size: 0.8em;
+        border: 2px solid blue;
+        width: 300%;
+      }
+      .source {
+        float: right;
+        border: 2px solid yellow;
+        margin-left: 0;
+      }
+    }
+  }
+}
