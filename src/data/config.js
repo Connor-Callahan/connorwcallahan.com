@@ -26,10 +26,6 @@ const config = {
       link: '/about/',
     },
     {
-      name: 'Articles',
-      link: '/articles/',
-    },
-    {
       name: 'Contact',
       link: '/contact/',
     },

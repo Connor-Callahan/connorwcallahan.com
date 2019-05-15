@@ -26,6 +26,11 @@ class Navigation extends Component {
               ))}
               <a target="_blank"
                 rel="noopener noreferrer"
+                href="https://medium.com/@connorwcallahan">
+                Blog
+              </a>
+              <a target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/Connor-Callahan">
                 GitHub
               </a>

@@ -10,28 +10,28 @@ const projects = [
     demo: 'https://damp-reaches-73554.herokuapp.com/',
     icon: aircolor,
     source: 'https://github.com/Connor-Callahan/air-color',
-    description: 'A pure Javascript application created with an interactive SVG.',
+    description: 'Design/edit a sneaker illustration using an interactive SVG.',
   },
   {
     title: 'Speculate',
     demo: 'poop',
     icon: speculate,
     source: 'https://github.com/Connor-Callahan/speculate',
-    description: 'blahblahblah',
+    description: 'Simulation to trade shares of companies with data provided by the Investors Exchange API.',
   },
   {
     title: 'Outfit Lab',
     demo: 'poop',
     icon: outfitlab,
     source: 'https://github.com/Connor-Callahan/outfit-lab',
-    description: 'React application to collaboratively design clothing templates.',
+    description: 'React application to collaboratively design clothing from SVG templates.',
   },
   {
     title: 'Museume',
     demo: 'poop',
     icon: museume,
     source: 'https://github.com/Connor-Callahan/museume',
-    description: 'A rails app to locate Museums in NYC. Browse by borough or filter with search.',
+    description: 'App built entirely on Rails to locate Museums in NYC. Browse by borough or filter with search.',
   },
 ]
 

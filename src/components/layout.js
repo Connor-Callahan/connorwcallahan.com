@@ -13,6 +13,7 @@ import config from  "../data/config"
 import "../style/navigation.scss"
 import "../style/index.scss"
 import "../style/projects.scss"
+import "../style/contact.scss"
 
 
 const Layout = ({ children }) => (
