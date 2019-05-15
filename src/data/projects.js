@@ -1,16 +1,19 @@
+import aircolor from '../images/air-color-icon.png'
+
+
 const projects = [
   {
     title: 'Air Color',
-    demo: '',
-    icon: '',
-    source: 'https://github.com/Connor-Callahan/speculate',
+    demo: 'https://damp-reaches-73554.herokuapp.com/',
+    icon: aircolor,
+    source: 'https://github.com/Connor-Callahan/air-color',
     description: 'A pure Javascript application created with an interactive SVG.',
   },
   {
     title: 'Speculate',
     demo: '',
     icon: '',
-    source: 'https://github.com/Connor-Callahan/air-color',
+    source: 'https://github.com/Connor-Callahan/speculate',
     description: 'blahblahblah',
   },
   {

@@ -18,24 +18,35 @@ div {
       display: flex;
       align-items: center;
 
+      .project-icon {
+        width: 70px;
+        margin-right: 0.8em;
+        // border: 2px solid green;
+
+      }
       h2 {
         font-size: 1.2em;
         float: left;
-        border: 2px solid red;
-        margin-right: 1em;
         padding-right: 0.2em;
         width: 100%;
+        // border: 2px solid red;
+        a {
+          text-decoration: none;
+          color: black;
+        }
       }
+
       p {
         font-size: 0.8em;
-        border: 2px solid blue;
+        // border: 2px solid blue;
         width: 300%;
       }
       .source {
         float: right;
-        border: 2px solid yellow;
+        // border: 2px solid yellow;
         margin-left: 0;
       }
     }
   }
 }
+//

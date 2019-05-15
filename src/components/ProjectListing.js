@@ -5,13 +5,13 @@ class ProjectListing extends Component {
   render() {
     const projects = this.props.projects
 
-    console.log(projects)
     return (
       <div>
       <section className="project-container">
         <h1>Projects</h1>
           {projects.map(project => (
             <div className="project" key={project.title}>
+              <img src={project.icon} alt="icon-" className="project-icon" />
               <h2>
                 <a href={project.source} target="_blank" rel="noopener noreferrer">
                   {project.title}
@@ -19,8 +19,8 @@ class ProjectListing extends Component {
               </h2>
               <p>{project.description}</p>
               <div className="buttons">
-                {project.path ? (
-                  <a className="button" href={project.path} target="_blank" rel="noopener noreferrer">
+                {project.demo ? (
+                  <a className="button" href={project.demo} target="_blank" rel="noopener noreferrer">
                     Website
                   </a>
                 ) : null}
