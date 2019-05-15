@@ -1,10 +1,11 @@
 
-div {
+.listing {
   width: 100%;
   top: 0;
   left: 0;
   background: white;
   font-family: 'IBM Plex Mono', monospace;
+  // border: 2px solid yellow;
 
   .project-container {
     padding: 2em 0 0 0.5em;
@@ -13,6 +14,7 @@ div {
     margin: auto;
     justify-content: space-between;
     transition: height 0.3s ease;
+    // border: 2px solid orange;
 
     .project {
       display: flex;
@@ -26,9 +28,8 @@ div {
       }
       h2 {
         font-size: 1.2em;
-        float: left;
-        padding-right: 0.2em;
-        width: 100%;
+        padding-right: 0.7em;
+        width: auto;
         // border: 2px solid red;
         a {
           text-decoration: none;
@@ -41,6 +42,17 @@ div {
         // border: 2px solid blue;
         width: 300%;
       }
+      .buttons {
+        display: inline-flex;
+        width: auto;
+        a {
+          border: 2px solid black;
+          margin: 1rem;
+          padding: 0.2rem;
+          text-decoration: none;
+          color: black;
+        }
+      }
       .source {
         float: right;
         // border: 2px solid yellow;
@@ -49,4 +61,37 @@ div {
     }
   }
 }
-//
+
+
+@media (max-width: 850px) {
+  .listing {
+    .project-container {
+
+      .project {
+
+
+        .project-icon {
+
+
+        }
+        h2 {
+
+          a {
+          }
+        }
+
+        p {
+          visibility: hidden;
+        }
+        .buttons {
+          margin-left: -20em;
+          a {
+          }
+        }
+        .source {
+
+        }
+      }
+    }
+  }
+}

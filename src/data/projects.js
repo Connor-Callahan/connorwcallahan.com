@@ -1,4 +1,7 @@
 import aircolor from '../images/air-color-icon.png'
+import speculate from '../images/speculate-icon.png'
+import museume from '../images/museume-icon.png'
+import outfitlab from '../images/outfit-lab-icon.png'
 
 
 const projects = [
@@ -11,22 +14,22 @@ const projects = [
   },
   {
     title: 'Speculate',
-    demo: '',
-    icon: '',
+    demo: 'poop',
+    icon: speculate,
     source: 'https://github.com/Connor-Callahan/speculate',
     description: 'blahblahblah',
   },
   {
     title: 'Outfit Lab',
-    demo: '',
-    icon: '',
+    demo: 'poop',
+    icon: outfitlab,
     source: 'https://github.com/Connor-Callahan/outfit-lab',
     description: 'React application to collaboratively design clothing templates.',
   },
   {
     title: 'Museume',
-    demo: '',
-    icon: '',
+    demo: 'poop',
+    icon: museume,
     source: 'https://github.com/Connor-Callahan/museume',
     description: 'A rails app to locate Museums in NYC. Browse by borough or filter with search.',
   },

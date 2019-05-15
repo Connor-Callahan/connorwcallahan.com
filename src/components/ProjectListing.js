@@ -6,7 +6,7 @@ class ProjectListing extends Component {
     const projects = this.props.projects
 
     return (
-      <div>
+      <div className="listing">
       <section className="project-container">
         <h1>Projects</h1>
           {projects.map(project => (
@@ -21,11 +21,11 @@ class ProjectListing extends Component {
               <div className="buttons">
                 {project.demo ? (
                   <a className="button" href={project.demo} target="_blank" rel="noopener noreferrer">
-                    Website
+                    Site
                   </a>
                 ) : null}
                 <a className="source" href={project.source}>
-                  Source
+                  code
                 </a>
               </div>
             </div>
