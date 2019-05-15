@@ -17,7 +17,7 @@ const ContactPage = () => (
               <p>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/cwcallahan/">cwcallahan</a></p>
               <p>Medium: <a target="_blank" href="https://github.com/Connor-Callahan">connorwcallahan</a></p>
             </ul>
-            <img src={require('../images/me-icon.png')} />
+            <img className="me-icon" src={require('../images/me-icon.png')} />
           </div>
       </div>
     </div>

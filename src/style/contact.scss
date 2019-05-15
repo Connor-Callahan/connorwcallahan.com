@@ -9,7 +9,6 @@
 
   .contact {
     padding: 0 1.5em;
-    height: 100px;
     max-width: 800px;
     margin: auto;
     align-items: center;
@@ -18,6 +17,59 @@
 
     .info {
       display: flex;
+    }
+
+    .me-icon {
+      width: auto;
+      padding-left: 10em;
+      animation: rotate 150s linear infinite;
+    }
+
+    @-webkit-keyframes rotate {
+    0% {
+        -webkit-transform:translate(100px, 100px) rotate(0deg) translate(-100px, -100px) rotate(0deg);
+    }
+  12% {
+        -webkit-transform:translate(100px, 130px) rotate(70deg) translate(-100px, -120px) rotate(-45deg);
+  }
+  20% {
+      -webkit-transform:translate(110px, 100px) rotate(90deg) translate(-100px, -100px) rotate(-90deg);
+  }
+  30% {
+      -webkit-transform:translate(105px, 100px) rotate(135deg) translate(-130px, -140px) rotate(0deg);
+  }
+  35% {
+      -webkit-transform:translate(100px, 120px) rotate(180deg) translate(-100px, -100px) rotate(-180deg);
+  }
+  55% {
+      -webkit-transform:translate(100px, 100px) rotate(205deg) translate(-180px, -100px) rotate(225deg);
+  }
+  65% {
+      -webkit-transform:translate(100px, 120px) rotate(270deg) translate(-100px, -100px) rotate(-270deg);
+  }
+  85% {
+      -webkit-transform:translate(120px, 100px) rotate(310deg) translate(-100px, -100px) rotate(315deg);
+  }
+    100% {
+        -webkit-transform:translate(110px, 100px) rotate(360deg) translate(-100px, -100px) rotate(-360deg);
+    }
+}
+  }
+}
+
+@media (max-width: 850px) {
+  .contact-container {
+
+    .contact {
+
+      .info {
+        display: grid;
+      }
+
+      .me-icon {
+        margin-left: -10em;
+      }
+
     }
   }
 
