@@ -9,11 +9,13 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import Navigation from "./navigation"
+import Footer from "./footer"
 import config from  "../data/config"
 import "../style/navigation.scss"
 import "../style/index.scss"
 import "../style/projects.scss"
 import "../style/contact.scss"
+import "../style/footer.scss"
 
 
 const Layout = ({ children }) => (
@@ -28,10 +30,11 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
+      <div className="app">
         <Navigation navLinks={config}/>
         <main>{children}</main>
-      </>
+        <Footer />
+      </div>
     )}
   />
 )
