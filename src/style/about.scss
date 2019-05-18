@@ -1,1 +1,66 @@
 
+div {
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: white;
+  transition: all 0.3s ease;
+
+  .about {
+    padding: 0 0.5em;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: height 0.3s ease;
+
+    .profile {
+      padding: 0 0.5em;
+      margin: auto;
+      align-items: center;
+      justify-content: space-between;
+      transition: height 0.3s ease;
+      // border:2px solid red;
+      h1 {
+        font-size: 2.2rem;
+        font-family: 'IBM Plex Mono', monospace;
+      }
+
+      p {
+        font-size: 1rem;
+        font-family: 'IBM Plex Mono', monospace;
+        padding-right: 1em;
+        max-width: 600px;
+      }
+    }
+    .profile-pic {
+      border: 2px solid black;
+      padding: 0.5em;
+      margin-top: 2em;
+      width: 250px;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  div {
+
+    .about {
+      display: grid;
+      .profile {
+        h1 {
+
+        }
+
+        p {
+
+        }
+      }
+      .profile-pic {
+        margin-top: 1em;
+        margin: 0 auto;
+      }
+    }
+  }
+}

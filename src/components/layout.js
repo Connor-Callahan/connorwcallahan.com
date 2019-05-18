@@ -16,6 +16,7 @@ import "../style/index.scss"
 import "../style/projects.scss"
 import "../style/contact.scss"
 import "../style/footer.scss"
+import "../style/about.scss"
 
 
 const Layout = ({ children }) => (
@@ -33,7 +34,6 @@ const Layout = ({ children }) => (
       <div className="app">
         <Navigation navLinks={config}/>
         <main>{children}</main>
-        <Footer />
       </div>
     )}
   />
