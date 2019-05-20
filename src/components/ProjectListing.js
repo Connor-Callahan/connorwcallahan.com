@@ -24,7 +24,7 @@ class ProjectListing extends Component {
                     Site
                   </a>
                 ) : null}
-                <a className="source" href={project.source}>
+                <a className="button"  target="_blank" href={project.source}>
                   code
                 </a>
               </div>

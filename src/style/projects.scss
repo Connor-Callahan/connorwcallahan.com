@@ -19,6 +19,8 @@
     .project {
       display: flex;
       align-items: center;
+      height: 100px;
+      width: 100%;
       // border: 2px solid orange;
 
       .project-icon {
@@ -29,7 +31,7 @@
       h2 {
         font-size: 1.2em;
         padding-right: 0.7em;
-        width: auto;
+        width: 100px;
         // border: 2px solid red;
         a {
           text-decoration: none;
@@ -44,7 +46,8 @@
       }
       .buttons {
         display: inline-flex;
-        width: 100%;
+        // border: 2px solid blue;
+
         a {
           border: 2px solid black;
           margin: 1rem;
@@ -66,9 +69,8 @@
 @media (max-width: 850px) {
   .listing {
     .project-container {
-      width: 100%;
+      margin: 0;
       .project {
-        width: 100%;
         .project-icon {
 
         }
@@ -83,38 +85,7 @@
         }
         .buttons {
           display: inline-flex;
-          a {
-          }
-        }
-        .source {
-
-        }
-      }
-    }
-  }
-}
-
-
-@media (orientation: portrait) {
-  .listing {
-    .project-container {
-      // padding: 0 0 0 0;
-
-      .project {
-        .project-icon {
-
-        }
-        h2 {
-
-          a {
-          }
-        }
-
-        p {
-          visibility: hidden;
-        }
-        .buttons {
-          display: grid;
+          margin-left: -10em;
           a {
           }
         }
