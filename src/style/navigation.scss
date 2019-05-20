@@ -18,7 +18,7 @@ nav  {
     align-items: center;
     justify-content: space-between;
     transition: height 0.3s ease;
-    border:2px solid purple;
+    // border:2px solid purple;
 
 
 
@@ -70,8 +70,7 @@ nav  {
 
     .nav-container {
       padding-left: 0rem;
-      width: 100vw;
-      border: 3px solid blue;
+      width: 90vw;
       .icon {
         .text {
           visibility: hidden;
@@ -93,6 +92,7 @@ nav  {
 @media (orientation: portrait) {
   nav {
     .nav-container {
+      width: 90vw;
       .icon {
         .text {
           visibility: hidden;
