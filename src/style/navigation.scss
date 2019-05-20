@@ -18,7 +18,7 @@ nav  {
     align-items: center;
     justify-content: space-between;
     transition: height 0.3s ease;
-    // border:2px solid purple;
+    border:2px solid purple;
 
 
 
@@ -67,22 +67,42 @@ nav  {
 
 @media (max-width: 850px) {
   nav {
+
     .nav-container {
       padding-left: 0rem;
-      max-width: 100%;
+      width: 100vw;
+      border: 3px solid blue;
       .icon {
         .text {
           visibility: hidden;
         }
         .favicon{
-          padding-right: 0;
         }
       }
       .nav-links {
-        font-size: 1rem;
-        margin-left: -7em;
+        font-size: 0.8rem;
+        margin-left: -8em;
         .link {
-          padding: 0.4;
+        }
+      }
+    }
+  }
+}
+
+
+@media (orientation: portrait) {
+  nav {
+    .nav-container {
+      .icon {
+        .text {
+          visibility: hidden;
+        }
+        .favicon{
+        }
+      }
+      .nav-links {
+        margin-left: -15em;
+        .link {
         }
       }
     }

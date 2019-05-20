@@ -1,7 +1,12 @@
 
 .app {
   display: grid;
+  width: 100%;
+  border: 2px solid black;
 }
+
+
+
 
 header {
   width: 100%;
@@ -9,7 +14,6 @@ header {
   left: 0;
   background: white;
   transition: all 0.3s ease;
-  // border: 2px solid green;
 
   .summary {
     padding: 0 0.5em;
