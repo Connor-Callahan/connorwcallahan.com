@@ -13,6 +13,8 @@
     margin: auto;
     justify-content: space-between;
     transition: height 0.3s ease;
+    height: 100%;
+    // border: 2px solid orange;
 
     .project {
       display: flex;
@@ -23,7 +25,6 @@
         width: 70px;
         margin-right: 0.8em;
         // border: 2px solid green;
-
       }
       h2 {
         font-size: 1.2em;
@@ -38,12 +39,12 @@
 
       p {
         font-size: 0.8em;
-        // border: 2px solid blue;
         width: 300%;
+        // border: 2px solid blue;
       }
       .buttons {
         display: inline-flex;
-        width: auto;
+        width: 100%;
         a {
           border: 2px solid black;
           margin: 1rem;
@@ -65,9 +66,9 @@
 @media (max-width: 850px) {
   .listing {
     .project-container {
-      // width: 90vw;
+      width: 100%;
       .project {
-        width: 90vw;
+        width: 100%;
         .project-icon {
 
         }
@@ -81,7 +82,37 @@
           visibility: hidden;
         }
         .buttons {
-          margin-left: -20em;
+          display: inline-flex;
+          a {
+          }
+        }
+        .source {
+
+        }
+      }
+    }
+  }
+}
+
+
+@media (orientation: portrait) {
+  .listing {
+    .project-container {
+      .project {
+        .project-icon {
+
+        }
+        h2 {
+
+          a {
+          }
+        }
+
+        p {
+          visibility: hidden;
+        }
+        .buttons {
+          display: grid;
           a {
           }
         }

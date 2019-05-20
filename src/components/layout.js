@@ -29,7 +29,7 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <div className="app">
+      <div className="app" >
         <Navigation navLinks={config}/>
         <main>{children}</main>
       </div>
