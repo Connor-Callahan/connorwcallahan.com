@@ -67,10 +67,11 @@ nav  {
 
 @media (max-width: 850px) {
   nav {
-
     .nav-container {
       padding-left: 0rem;
+      margin: 0rem;
       width: 100%;
+      padding: 0;
       .icon {
         .text {
           visibility: hidden;
@@ -80,7 +81,7 @@ nav  {
       }
       .nav-links {
         font-size: 0.8rem;
-        margin-left: -8em;
+        // margin-left: -8em;
         .link {
         }
       }
