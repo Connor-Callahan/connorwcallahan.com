@@ -20,7 +20,7 @@ class ProjectListing extends Component {
               <p>{project.description}</p>
               <div className="buttons">
                 {project.site ? (
-                  <a className="button" href={project.demo} target="_blank" rel="noopener noreferrer">
+                  <a className="button" href={project.site} target="_blank" rel="noopener noreferrer">
                     site
                   </a>
                 ) :
