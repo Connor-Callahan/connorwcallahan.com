@@ -1,7 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
-import config from "../data/config"
 import projects from "../data/projects"
+import config from "../data/config"
 import ProjectListing from "../components/ProjectListing"
 
 import Layout from "../components/layout"

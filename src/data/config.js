@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    'I am a Full Stack Web Developer experienced in HTML/CSS, Rails, Javascipt and React/Redux. I love to building things and helping people.',
+    'I am a Full Stack Web Developer who loves to building applications and collaborating with teams to solve challenging problems. Please take a minute to browse my projects, check out my blog or say hello! ',
   siteRss: '/rss.xml',
   postDefaultCategoryID: 'Tech',
   userName: 'Connor',

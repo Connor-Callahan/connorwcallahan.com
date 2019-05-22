@@ -11,14 +11,12 @@ div {
     max-width: 800px;
     margin: auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     transition: height 0.3s ease;
 
     .profile {
-      padding: 0 0.5em;
       margin: auto;
-      align-items: center;
       justify-content: space-between;
       transition: height 0.3s ease;
       // border:2px solid red;
@@ -32,13 +30,14 @@ div {
         font-family: 'IBM Plex Mono', monospace;
         padding-right: 1em;
         max-width: 600px;
+        line-height: 26px;
       }
     }
     .profile-pic {
-      border: 2px solid black;
+      border: 1px solid black;
+      margin-top: 5em;
       padding: 0.5em;
-      margin-top: 2em;
-      width: 250px;
+      width: 215px;
     }
   }
 }

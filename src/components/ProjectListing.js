@@ -19,12 +19,16 @@ class ProjectListing extends Component {
               </h2>
               <p>{project.description}</p>
               <div className="buttons">
-                {project.demo ? (
+                {project.site ? (
                   <a className="button" href={project.demo} target="_blank" rel="noopener noreferrer">
-                    Site
+                    site
                   </a>
-                ) : null}
-                <a className="button"  target="_blank" href={project.source}>
+                ) :
+                <a className="button" href={project.demo} target="_blank" rel="noopener noreferrer">
+                  demo
+                </a>
+                }
+                <a className="button"  target="_blank" rel="noopener noreferrer" href={project.source}>
                   code
                 </a>
               </div>

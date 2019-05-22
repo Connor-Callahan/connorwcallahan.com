@@ -5,7 +5,6 @@ nav  {
   top: 0;
   left: 0;
   z-index: 3;
-  background: white;
   transition: all 0.3s ease;
 
 
@@ -31,6 +30,7 @@ nav  {
          margin-right: 0;
          font-weight: 400;
          font-size: 1.8rem;
+         z-index: 4;
          font-family: 'IBM Plex Sans', monospace;
 
         }
@@ -60,6 +60,7 @@ nav  {
         padding: 0.8rem;
         color: #2a2a30;
         text-decoration: none;
+
       }
     }
   }
@@ -80,7 +81,7 @@ nav  {
         }
       }
       .nav-links {
-        font-size: 0.8rem;
+        font-size: 1rem;
         // margin-left: -8em;
         .link {
         }
@@ -105,9 +106,11 @@ nav  {
       }
       .nav-links {
         margin-left: -15em;
+        font-size: 0.8rem;
         .link {
         }
       }
+
     }
   }
 }
