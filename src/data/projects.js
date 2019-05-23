@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Speculate',
-    site: '',
+    site: 'https://clever-archimedes-2b5cd4.netlify.com/',
     demo: 'https://vimeo.com/325429394',
     icon: speculate,
     source: 'https://github.com/Connor-Callahan/speculate',
