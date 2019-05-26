@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `Connor Callahan`,
-    description: `Connor Callahan is a Full Stack Web Developer experienced in HTML/CSS, Rails, Javascipt and React/Redux.`,
+    description: `Hi I'm Connor, I am a Full Stack Web Developer who loves building applications and collaborating with teams to solve challenging problems. Please take a minute to browse my projects, check out my blog or say hello! `,
     author: `Connor Callahan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
