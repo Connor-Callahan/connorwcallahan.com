@@ -8,14 +8,14 @@ const projects = [
   {
     title: 'Air Color',
     site: 'https://cocky-hugle-134978.netlify.com/',
-    demo: '',
+    demo: 'https://vimeo.com/319501272',
     icon: aircolor,
     source: 'https://github.com/Connor-Callahan/air-color',
     description: 'Design/edit a sneaker illustration using an interactive SVG.',
   },
   {
     title: 'Speculate',
-    site: 'https://clever-archimedes-2b5cd4.netlify.com/',
+    site: 'https://speculate.netlify.com/',
     demo: 'https://vimeo.com/325429394',
     icon: speculate,
     source: 'https://github.com/Connor-Callahan/speculate',
