@@ -7,7 +7,7 @@ import outfitlab from '../images/outfit-lab-icon.png'
 const projects = [
   {
     title: 'Air Color',
-    site: 'https://cocky-hugle-134978.netlify.com/',
+    site: 'https://air-color.netlify.com/',
     demo: 'https://vimeo.com/319501272',
     icon: aircolor,
     source: 'https://github.com/Connor-Callahan/air-color',
@@ -40,3 +40,5 @@ const projects = [
 ]
 
 export default projects
+
+// test to netlify
