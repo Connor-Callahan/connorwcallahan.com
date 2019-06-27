@@ -14,7 +14,7 @@ const ContactPage = () => (
               <p>Email: connorwcallahan@gmail.com</p>
               <p>Github: <a target="_blank" href="https://github.com/Connor-Callahan" rel="noopener noreferrer">Connor-Callahan</a></p>
               <p>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/cwcallahan/" rel="noopener noreferrer">cwcallahan</a></p>
-              <p>Medium: <a target="_blank" href="https://github.com/Connor-Callahan"  rel="noopener noreferrer">connorwcallahan</a></p>
+              <p>Medium: <a target="_blank" href="https://medium.com/@connorwcallahan"  rel="noopener noreferrer">connorwcallahan</a></p>
             </ul>
             <img className="me-icon" alt="astronaut" src={require('../images/me-icon.png')} />
           </div>
