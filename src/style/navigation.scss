@@ -2,6 +2,7 @@
 nav  {
   // position: fixed;
   width: 100%;
+  background: dodgerblue;
   top: 0;
   left: 0;
   z-index: 3;
@@ -9,6 +10,7 @@ nav  {
 
 
   .nav-container {
+    background: dodgerblue;
     padding: 0 1.5em;
     height: 100px;
     max-width: 800px;
@@ -20,9 +22,9 @@ nav  {
     // border:2px solid purple;
 
 
-
     .icon {
       // border:2px solid blue;
+      background: dodgerblue;
         a {
          display: flex;
          text-decoration: none;
@@ -31,34 +33,37 @@ nav  {
          font-weight: 400;
          font-size: 1.8rem;
          z-index: 4;
-         font-family: 'IBM Plex Sans', monospace;
+         font-family: 'Lexend Deca', sans-serif;;
 
         }
       .text {
         // border:2px solid purple;
-        color: #2a2a30;
+        background: dodgerblue;
+        color: white;
       }
       .favicon {
         // border:2px solid green;
         width: 37px;
+        visibility: hidden;
         padding-right: 1rem;
         padding-bottom: 0.5rem;
       }
     }
 
     .nav-links {
+      background: dodgerblue;
       font-size: 1.2rem;
-      font-family: 'IBM Plex Sans', monospace;
+      font-family: 'Lexend Deca', sans-serif;;
 
       .link {
-        color: #2a2a30;
+        color: white;
         padding: 0.8rem;
         text-decoration: none;
       }
 
       a {
         padding: 0.8rem;
-        color: #2a2a30;
+        color: white;
         text-decoration: none;
 
       }

@@ -20,11 +20,6 @@
         "path": "/about/"
     },
     {
-        "componentChunkName": "component---src-pages-articles-js",
-        "jsonName": "articles-18f",
-        "path": "/articles/"
-    },
-    {
         "componentChunkName": "component---src-pages-contact-js",
         "jsonName": "contact-26a",
         "path": "/contact/"
