@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import mac from '../images/icon-mac.png'
+import icon from '../images/icon.png'
 
 
 class Navigation extends Component {
@@ -53,3 +53,5 @@ Navigation.defaultProps = {
 }
 
 export default Navigation
+
+// <img src={icon} className="favicon" alt="icon"/>
