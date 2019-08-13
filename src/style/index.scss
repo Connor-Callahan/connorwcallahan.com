@@ -7,8 +7,6 @@
 }
 
 
-
-
 header {
   width: 100%;
   top: 0;
@@ -22,6 +20,8 @@ header {
     max-width: 800px;
     line-height: 26px;
     margin: auto;
+    margin-top: 4em;
+    color: #0000cd;
     align-items: center;
     justify-content: space-between;
     transition: height 0.3s ease;
@@ -29,16 +29,17 @@ header {
 
     h1 {
       font-size: 2.2rem;
-      font-family: 'Lexend Deca', sans-serif;;
+      color: black;
+      font-family: 'DM Sans', sans-serif;
     }
 
     img {
       float: right;
     }
     p {
-      font-size: 1rem;
-      font-family: 'Lexend Deca', sans-serif;;
-      max-width: 700px;
+      font-size: 1.2rem;
+      font-family: 'DM Sans', sans-serif;
+      width: 100%;
     }
   }
 }

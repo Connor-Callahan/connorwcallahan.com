@@ -1,12 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: `Connor Callahan`,
-    description: `Hi I'm Connor, I am a Full Stack Web Developer who loves building applications and collaborating with teams to solve challenging problems. Please take a minute to browse my projects, check out my blog or say hello! `,
+    description: `Hi I'm Connor, I am a Full Stack Developer who loves building applications and collaborating with teams to solve challenging problems. Currently an enthusiastic member of the Solutions team at Datadog in New York City. Please take a minute to browse my projects, check out my blog or say hello! `,
     author: `Connor Callahan`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['DM Sans', 'sans-serif']
+        }
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/icon-mac.png`, // This path is relative to the root of the site.
+        icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

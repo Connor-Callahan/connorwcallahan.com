@@ -15,7 +15,7 @@ class Navigation extends Component {
         <div className="nav-container">
           <div className="icon">
           <Link to="/">
-              <img src={mac} className="favicon" alt="icon"/> <span className="text">Connor Callahan</span>
+             <span className="text">Connor Callahan</span>
             </Link>
           </div>
           <div className="nav-links">

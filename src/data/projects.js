@@ -6,36 +6,36 @@ import outfitlab from '../images/outfit-lab-icon.png'
 
 const projects = [
   {
-    title: 'Air Color',
+    title: 'AirColor',
     site: 'https://air-color.netlify.com/',
     demo: 'https://vimeo.com/319501272',
-    icon: aircolor,
+    icon: '👟',
     source: 'https://github.com/Connor-Callahan/air-color',
-    description: 'Design/edit a sneaker illustration using an interactive SVG.',
+    description: 'Vanilla Javascript application to save and edit an SVG illustration.',
   },
   {
     title: 'Speculate',
     site: 'https://speculate.netlify.com/',
     demo: 'https://vimeo.com/325429394',
-    icon: speculate,
+    icon: '💵',
     source: 'https://github.com/Connor-Callahan/speculate',
-    description: 'Simulation to trade shares of companies with data provided by the Investors Exchange API.',
+    description: 'Vanilla Javascript application to save and edit an SVG illustration.',
   },
   {
-    title: 'Outfit Lab',
+    title: 'OutfitLab',
     site: '',
     demo: 'https://vimeo.com/321628455',
-    icon: outfitlab,
+    icon: '👕',
     source: 'https://github.com/Connor-Callahan/outfit-lab',
-    description: 'React application to collaboratively design clothing from SVG templates.',
+    description: 'A collaborative clothing design application.',
   },
   {
     title: 'Museume',
     site: '',
     demo: 'https://vimeo.com/319499708',
-    icon: museume,
+    icon:'🗽',
     source: 'https://github.com/Connor-Callahan/museume',
-    description: 'App built entirely on Rails to locate Museums in NYC. Browse by borough or filter with search.',
+    description: 'A searchable index museums in New York City. Browse by borough or museum name.',
   },
 ]
 

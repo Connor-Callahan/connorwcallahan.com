@@ -11,7 +11,7 @@ class ProjectListing extends Component {
         <h1>Projects</h1>
           {projects.map(project => (
             <div className="project" key={project.title}>
-              <img src={project.icon} alt="icon-" className="project-icon" />
+            <h1 className="project-icon" > {project.icon} </h1>
               <h2>
                 <a href={project.source} target="_blank" rel="noopener noreferrer">
                   {project.title}
@@ -41,3 +41,5 @@ class ProjectListing extends Component {
 }
 
 export default ProjectListing;
+
+// <img src={project.icon} alt="icon-" className="project-icon" />
