@@ -16,7 +16,6 @@ const ContactPage = () => (
               <p>LinkedIn: <a target="_blank" href="https://www.linkedin.com/in/cwcallahan/" rel="noopener noreferrer">cwcallahan</a></p>
               <p>Medium: <a target="_blank" href="https://medium.com/@connorwcallahan"  rel="noopener noreferrer">connorwcallahan</a></p>
             </ul>
-            <img className="me-icon" alt="astronaut" src={require('../images/me-icon.png')} />
           </div>
       </div>
     </div>
@@ -24,3 +23,5 @@ const ContactPage = () => (
 )
 
 export default ContactPage
+
+// <img className="me-icon" alt="astronaut" src={require('../images/me-icon.png')} />
