@@ -15,7 +15,6 @@ class Navigation extends Component {
         <div className="nav-container">
           <div className="icon">
           <Link to="/">
-          <img src={icon} className="favicon" alt="icon"/>
              <span className="text">Connor Callahan</span>
             </Link>
           </div>
@@ -44,6 +43,7 @@ class Navigation extends Component {
 }
 
 
+// <img src={icon} className="favicon" alt="icon"/>
 
 Navigation.propTypes = {
   siteTitle: PropTypes.string,

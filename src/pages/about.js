@@ -13,7 +13,6 @@ class AboutPage extends Component {
         <div>
         <div className="about">
           <div className="profile">
-            <h1>About Me</h1>
               <p>{about.p1}</p>
               <p>{about.p2}</p>
           </div>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Connor Callahan`,
-    description: `Hi I'm Connor, I am a Full Stack Developer who loves building applications and collaborating with teams to solve challenging problems. Currently an enthusiastic member of the Solutions team at Datadog in New York City. Please take a minute to browse my projects, check out my blog or say hello! `,
+    description: `I am a Full Stack Engineer who loves building applications and collaborating with teams to solve challenging problems. Currently an enthusiastic member of the Technical Solutions team at Datadog in New York City. Please take a minute to browse my projects, check out my blog or say hello!`,
     author: `Connor Callahan`,
   },
   plugins: [

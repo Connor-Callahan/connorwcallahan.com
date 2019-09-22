@@ -2,12 +2,11 @@
 nav  {
   // position: fixed;
   width: 100%;
-  background: white ;
+  background: white;
   top: 0;
   left: 0;
   z-index: 3;
   transition: all 0.3s ease;
-
 
   .nav-container {
     background: white ;
@@ -21,10 +20,10 @@ nav  {
     transition: height 0.3s ease;
     // border:2px solid purple;
 
-
     .icon {
       // border:2px solid blue;
       background: white ;
+
         a {
          display: flex;
          text-decoration: none;
@@ -39,8 +38,8 @@ nav  {
       .text {
         // border:2px solid purple;
         background: white;
-        font-size: 32px;
-        color: #0527f8;
+        font-size: 38px;
+        color: black;
         font-weight: bold;
       }
       .favicon {

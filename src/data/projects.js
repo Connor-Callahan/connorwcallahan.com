@@ -19,7 +19,7 @@ const projects = [
     demo: 'https://vimeo.com/325429394',
     icon: '💵',
     source: 'https://github.com/Connor-Callahan/speculate',
-    description: 'Vanilla Javascript application to save and edit an SVG illustration.',
+    description: 'Stock exchange simulation built with React and Redux.',
   },
   {
     title: 'OutfitLab',
