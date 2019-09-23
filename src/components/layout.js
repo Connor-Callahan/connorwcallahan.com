@@ -8,6 +8,7 @@ import "../style/index.scss"
 import "../style/projects.scss"
 import "../style/contact.scss"
 import "../style/about.scss"
+import "../style/blog.scss"
 
 
 const Layout = ({ children }) => (

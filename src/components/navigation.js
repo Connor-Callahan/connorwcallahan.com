@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "gatsby"
+import TransitionLink from "gatsby-plugin-transition-link"
 import PropTypes from "prop-types"
 import icon from '../images/icon.png'
 
@@ -20,9 +21,9 @@ class Navigation extends Component {
           </div>
           <div className="nav-links">
               {navLinks.map(link => (
-                <Link key={link.name} to={link.link} className="link" activeClassName="active">
+                <TransitionLink key={link.name} to={link.link} className="link" activeClassName="active">
                   {link.name}
-                </Link>
+                </TransitionLink>
               ))}
               <a target="_blank"
                 rel="noopener noreferrer"
