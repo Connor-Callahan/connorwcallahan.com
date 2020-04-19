@@ -9,7 +9,7 @@ const config = {
   dateFromFormat: 'YYYY-MM-DD',
   dateFormat: 'MMMM Do, YYYY',
   siteDescription:
-    `I am a Full Stack Web Developer who loves building applications and collaborating with teams to solve challenging problems. Currently an enthusiastic member of the Technical Solutions team at Datadog in New York City. Please take a minute to browse my projects, check out my blog or say hello!`,
+    ``,
   siteRss: '/rss.xml',
   postDefaultCategoryID: 'Tech',
   userName: 'Connor',
@@ -21,10 +21,6 @@ const config = {
   themeColor: '#3F80FF',
   backgroundColor: '#ffffff',
   navLinks: [
-    {
-      name: 'About',
-      link: '/about/',
-    },
     {
       name: 'Contact',
       link: '/contact/',

@@ -12,7 +12,6 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`developer`, `application`, `react`, `javascript`]} />
     <header>
       <div className="summary">
-        <h1>Hi, I'm Connor</h1>
           <p>{config.siteDescription}</p>
       </div>
     </header>
