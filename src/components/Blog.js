@@ -7,7 +7,7 @@ class Blog extends Component {
     return (
       <div className="listing">
       <section className="blog-container">
-        <h1>Blog</h1>
+        <h1>Bloog</h1>
 
         </section>
         </div>
