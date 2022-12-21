@@ -1,16 +1,4 @@
 module.exports = {
-  plugins: [
-  {
-    resolve: "gatsby-plugin-datadog-rum",
-    options: {
-      applicationId: 'b4107279-44bd-4fce-95cb-9f53510a191a',
-      clientToken: 'pubcad8fc7ed25a1d7183d8bff696c82e49',
-      site: 'datadoghq.com',
-      sampleRate: 100,
-      enabled: true,
-    }
-  }
-],
   siteMetadata: {
     title: `Connor Callahan`,
     description: ``,
@@ -26,6 +14,16 @@ module.exports = {
         google: {
           families: ['DM Sans', 'sans-serif']
         }
+      }
+    },
+    {
+      resolve: "gatsby-plugin-datadog-rum",
+      options: {
+        applicationId: 'b4107279-44bd-4fce-95cb-9f53510a191a',
+        clientToken: 'pubcad8fc7ed25a1d7183d8bff696c82e49',
+        site: 'datadoghq.com',
+        sampleRate: 100,
+        enabled: true,
       }
     },
     {
