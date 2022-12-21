@@ -1,4 +1,16 @@
 module.exports = {
+  plugins: [
+  {
+    resolve: "gatsby-plugin-datadog-rum",
+    options: {
+      applicationId: 'YOUR_APP_ID',
+      clientToken: 'YOUR_CLIENT_TOKEN',
+      site: 'datadoghq.com',
+      sampleRate: 100,
+      enabled: !IS_DEV,
+    }
+  }
+],
   siteMetadata: {
     title: `Connor Callahan`,
     description: ``,
