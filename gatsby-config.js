@@ -7,7 +7,7 @@ module.exports = {
       clientToken: 'pubcad8fc7ed25a1d7183d8bff696c82e49',
       site: 'datadoghq.com',
       sampleRate: 100,
-      enabled: !IS_DEV,
+      enabled: true,
     }
   }
 ],
