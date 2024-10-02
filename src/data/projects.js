@@ -7,7 +7,7 @@ import outfitlab from '../images/outfit-lab-icon.png'
 const projects = [
   {
     title: 'AirColor',
-    site: 'https://air-color.netlify.com/',
+    site: 'https://air-color.netlify.app/',
     demo: 'https://vimeo.com/319501272',
     icon: '👟',
     source: 'https://github.com/Connor-Callahan/air-color',
@@ -15,7 +15,7 @@ const projects = [
   },
   {
     title: 'Speculate',
-    site: 'https://speculate.netlify.com/',
+    site: 'https://speculate.netlify.app/',
     demo: 'https://vimeo.com/325429394',
     icon: '💵',
     source: 'https://github.com/Connor-Callahan/speculate',
